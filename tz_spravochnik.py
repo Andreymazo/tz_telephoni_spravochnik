@@ -1,4 +1,5 @@
 from pathlib import Path
+import pydoc
 import readline
 
 def sort_single_file(nums, low, high, nomer):
@@ -78,7 +79,8 @@ if aa == 3:
     if Path('telephone_spravochnik.txt').is_file():
         with open('telephone_spravochnik.txt', 'r') as f:
             data = f.read()
-            print(data)
+            # print(data)
+            pydoc.pager(data)
     if not Path('telephone_spravochnik.txt').is_file():
         print('Еще не ввели ни одного номера')
 
