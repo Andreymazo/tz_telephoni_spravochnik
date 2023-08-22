@@ -17,9 +17,15 @@
 
 По заданию: 
  - Клонируем: git clone git@github.com:Andreymazo/tz_telephoni_spravochnik.git 
+ - Нужно создать и активировать виртуаленв. В моем слуае это pyenv:
+        - pyenv virtualenv tz_telephone_spravochnik
+        - pyenv activate tz_telephone_spravochnik
+        можно при создании папочки, зайти в нее и забить python -m venv env, source env/bin/activate
  - Запускаеи: tz_spravochnik.py
  - Выбираем 1 набираем имя,номер итак несколько раз. Либо просто используйте скопированный telephone_spravochnik.txt (там 4 записи)
  - Выбираем 2 и по имени ищем.
  - Выбираем 3 просматриваем записи.
+
+
  
  По всем вопросам обращайтесь andreymazo@mail.ru отвечу с удовольствием
