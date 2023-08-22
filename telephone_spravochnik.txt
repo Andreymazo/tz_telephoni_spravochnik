@@ -2,3 +2,6 @@ Kiril,7639
 Maria,5438
 Ivan,9832
 Andrey,0932
+Sergey,6542
+Nina,7654
+David,5432
